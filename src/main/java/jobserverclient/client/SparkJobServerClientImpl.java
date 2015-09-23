@@ -381,7 +381,8 @@ public class SparkJobServerClientImpl implements ISparkJobServerClient {
                 final HttpResponse response = httpClient.execute(postMethod);
                 final String resContent = getResponseContent(response.getEntity());
                 final int statusCode = response.getStatusLine().getStatusCode();
-                if (statusCode == HttpStatus.SC_OK) {
+                //"status": "STARTED",状态码为202
+                if (statusCode == HttpStatus.SC_OK || statusCode == 202) {
                     return parseResult(resContent);
                 } else {
                     logError(statusCode, resContent, true);

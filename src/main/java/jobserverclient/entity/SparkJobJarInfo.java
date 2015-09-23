@@ -13,11 +13,11 @@ public class SparkJobJarInfo {
     /**
      * jarName
      */
-    static final String INFO_KEY_JAR_NAME = "jarName";
+    public static final String INFO_KEY_JAR_NAME = "jarName";
     /**
      * uploadedTime
      */
-    static final String INFO_KEY_UPLOADED_TIME = "uploadedTime";
+    public static final String INFO_KEY_UPLOADED_TIME = "uploadedTime";
 
     /**
      * jar名称

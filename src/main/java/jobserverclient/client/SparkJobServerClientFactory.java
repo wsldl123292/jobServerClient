@@ -1,6 +1,6 @@
 package jobserverclient.client;
 
-import com.saibo.jobserverclient.globle.ISparkJobServerClient;
+import jobserverclient.globle.ISparkJobServerClient;
 import org.apache.log4j.Logger;
 
 import java.net.MalformedURLException;
