@@ -1,10 +1,11 @@
 package jobserverclient.globle;
 
-import com.saibo.jobserverclient.client.SparkJobServerClientException;
-import com.saibo.jobserverclient.entity.SparkJobConfig;
-import com.saibo.jobserverclient.entity.SparkJobInfo;
-import com.saibo.jobserverclient.entity.SparkJobJarInfo;
-import com.saibo.jobserverclient.entity.SparkJobResult;
+
+import jobserverclient.client.SparkJobServerClientException;
+import jobserverclient.entity.SparkJobConfig;
+import jobserverclient.entity.SparkJobInfo;
+import jobserverclient.entity.SparkJobJarInfo;
+import jobserverclient.entity.SparkJobResult;
 
 import java.io.File;
 import java.util.List;
